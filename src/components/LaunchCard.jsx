@@ -1,6 +1,6 @@
 import {Badge, Box, Button, Flex, Text} from '@chakra-ui/react'
 import { ArrowForwardIcon, CalendarIcon } from '@chakra-ui/icons'
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs'
 import {useContext} from 'react'
 
 import Context from '../Context.jsx'

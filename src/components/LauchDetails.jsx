@@ -10,7 +10,7 @@ import {
     Highlight, Image, Spinner,
     Text, Wrap, WrapItem
 } from '@chakra-ui/react'
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs'
 import {useContext, useEffect, useState} from 'react'
 
 import LauchContext from '../Context.jsx'
@@ -78,7 +78,7 @@ export default function LaunchDetails() {
                     <Wrap mt={3}>
                         <WrapItem>
                             {rocket.flickr_images.slice(0, 4).map(image => (
-                                <Avatar mr={3} name='Rocket Image' src={image} fallbackSrc='https://via.placeholder.com/150' />
+                                <Avatar key={image} mr={3} name='Rocket Image' src={image} fallbackSrc='https://via.placeholder.com/150' />
                             ))}
                         </WrapItem>
                     </Wrap>
