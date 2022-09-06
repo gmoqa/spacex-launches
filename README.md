@@ -4,7 +4,7 @@ This is a sandbox project to train some basic concepts
 of [React.js](https://en.reactjs.org/) and [Chakra-UI](https://chakra-ui.com/), using the [SpaceX API](https://github.com/r-spacex/SpaceX-API).
 
 
-Live Demo : 
+Live Demo : https://spacex-launches.onrender.com
 
 ## Usage
 
